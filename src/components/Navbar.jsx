@@ -6,7 +6,9 @@ import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
-  const [active, setActive] = useState('')
+  const [active, setActive] = useState('');
+  const [toggle, setToggle] = useState(false);
+
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
@@ -18,8 +20,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}        
         >
-          <img src={logo} alt="logo" className='w-16 h-16 object-contain rounded-full' />
-          <p className='text-white text-[14px] font-bold cursor-pointer'> Martin <span className='sm:block hidden'>| Frontend Software Engineer</span></p>
+          <img src={logo} alt="logo" className='w-20 h-20 object-contain rounded-full' />
+          <p className='text-white text-[17px] font-bold cursor-pointer'> Martin Nguyen <span className='sm:block hidden'>| Frontend Software Engineer</span></p>
         </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((link) => (
@@ -29,13 +31,25 @@ const Navbar = () => {
                 active === link.title
                   ? 'text-white'
                   : 'text-secondary'
-              } hover:text-white text-[10px] font-medium cursor-pointer`}
+              } hover:text-white text-[14px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>
             ))}
           </ul>
+          <div className='sm:hidden flex flex-1 justify-end items-center'>
+            <img 
+              src={toggle ? close : menu} 
+              alt="menu"  
+              className='w-[28px] h-[28px] object-container cursor-pointer'
+              onClick={() => setToggle(!toggle)}
+            />
+
+            <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+
+            </div>
+          </div>
       </div>
 
     </nav>
