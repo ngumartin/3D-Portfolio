@@ -10,7 +10,7 @@ const Computers = () => {
   return (
     <mesh>
       <hemisphereLight intensity={1.15} groundColor='black' />
-      <pointLight intensity={15} />
+      <pointLight intensity={20} />
       <spotLight 
         position={[-20, 50, 10]}  
         angle={0.12} 
@@ -21,7 +21,7 @@ const Computers = () => {
 
       <primitive 
         object={computer.scene}
-        scale={0.75}
+        scale={0.60}
         position={[ 0, -3.25, -1.5]}
         rotation={[ -0.01, -0.2, -0.1]}
       />
@@ -50,7 +50,8 @@ const ComputersCanvas = () => {
   )
 }
 
-export default Computers;
+// export default Computers;
+export default ComputersCanvas;
 
 
 
