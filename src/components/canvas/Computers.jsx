@@ -1,6 +1,6 @@
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
-import { Canvas } from '@react-three/fiber'
-import { Suspense, useEffect, useState } from 'react';
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useEffect, useState } from "react";
 
 import CanvasLoader from '../Loader';
 
@@ -9,8 +9,16 @@ const Computers = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
-      <pointLight intensity={35} />
+      <hemisphereLight intensity={1.15} groundColor='black' />
+      <pointLight intensity={15} />
+      <spotLight 
+        position={[-20, 50, 10]}  
+        angle={0.12} 
+        intensity={1} 
+        castShadow 
+        shadow-mapSize={1024}
+      />
+
       <primitive 
         object={computer.scene}
         scale={0.75}
@@ -42,7 +50,7 @@ const ComputersCanvas = () => {
   )
 }
 
-export default Computers
+export default Computers;
 
 
 
