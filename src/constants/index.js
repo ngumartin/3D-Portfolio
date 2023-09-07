@@ -1,29 +1,4 @@
-import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-} from "../assets";
+import { backend, carrent, creator, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web } from "../assets";
 
 export const navLinks = [
     {
@@ -116,16 +91,16 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Web Portfolio",
+        title: "Merchant Marine, Deckhand",
+        company_name: "Blue & Gold Fleet",
         icon: reactjs,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "2009 - 2013",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers and vice versa.",
+            "Proficiently executed deck operations, including mooring, anchoring, and cargo handling, while strictly adhering to safety protocols and maritime regulations.",
+            "Worked seamlessly as part of a team to achieve efficient and effective shipboard operations, including navigation, maintenance, and emergency response.",
+            "Communicated effectively with officers, crew members, and superiors to ensure smooth sailing and rapid response to any operational challenges.",
+            "Demonstrated the ability to remain calm and take decisive actions during emergencies, such as fire drills, man-overboard situations, water rescues in adverse weather conditions.",
         ],
     },
     {
