@@ -110,10 +110,10 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "2014 - 2016",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "I was responsible for the maintenance of all the boats in the fleet, at the time there was a total of 17 vessels.",
+            "Maintenance included electrical systems, plumbing systems, interior, exterior, engines, generators, and all safety and emergency equipment.",
+            "We always worked in groups of 2-4 people, depending on the size of the job. Working well and getting along with others was paramount to the job.",
+            "Selected by supervisor for engine rebuild project, successfully leading a smooth and on-time completion, demonstrating strong problem-solving skills and ability to handle high-pressure situations.",
         ],
     },
     {
