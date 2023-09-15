@@ -134,7 +134,7 @@ const experiences = [
         company_name: "U.C. Berkeley Extension, San Francisco",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "2019 - Present",
         points: [
             "Completed a 24-Week intensive program focused on gaining technical programming skills. Course includes: HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, and ReactJS.",
             "Collaborating with other developers to create high-quality projects.",
