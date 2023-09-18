@@ -94,7 +94,7 @@ const experiences = [
         title: "Merchant Marine, Deckhand",
         company_name: "Blue & Gold Fleet",
         icon: reactjs,
-        iconBg: "#383E56",
+        iconBg: "#e5e5e5",
         date: "2009 - 2013",
         points: [
             "Proficiently executed deck operations, including mooring, anchoring, and cargo handling, while strictly adhering to safety protocols and maritime regulations.",

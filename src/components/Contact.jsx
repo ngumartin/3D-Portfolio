@@ -1,15 +1,11 @@
-import { useState, useRef } from 'react';
-import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion';
+import { useRef, useState } from 'react';
 
-import { styles } from '../styles';
-import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
+import { styles } from '../styles';
 import { slideIn } from '../utils/motion';
-
-// template_zugte5e
-// service_7j9385h
-// nPTTg6-fHn3ReY33M
+import { EarthCanvas } from './canvas';
 
 const Contact = () => {
   const formRef =useRef();
