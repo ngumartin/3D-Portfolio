@@ -175,14 +175,14 @@ const testimonials = [
     {
         name: "Article Summarizer",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Presenting the AI Summarizer app. Go to any article page of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
         tags: [
         {
             name: "react",
             color: "blue-text-gradient",
         },
         {
-            name: "mongodb",
+            name: "OpenAI",
             color: "green-text-gradient",
         },
         {
