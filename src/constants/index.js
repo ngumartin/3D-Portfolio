@@ -175,7 +175,7 @@ const testimonials = [
     {
         name: "Article Summarizer",
         description:
-            "Presenting the AI Summarizer app. Go to any article page of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
+            "Presenting the AI Summarizer app. Go to any article webpage of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
         tags: [
         {
             name: "react",
@@ -194,20 +194,20 @@ const testimonials = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Space Travel",
+        name: "Space Tour",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "The space tour brochure shows the different tour options the space agency offers. It shows the different crew members and the rockets and spaceships that are used for the journey.",
         tags: [
         {
-            name: "react",
+            name: "HTML",
             color: "blue-text-gradient",
         },
         {
-            name: "restapi",
+            name: "CSS",
             color: "green-text-gradient",
         },
         {
-            name: "scss",
+            name: "Javascript",
             color: "pink-text-gradient",
         },
         ],
