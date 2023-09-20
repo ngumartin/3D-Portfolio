@@ -175,7 +175,7 @@ const testimonials = [
     {
         name: "Article Summarizer",
         description:
-            "Presenting the AI Summarizer app. Go to any article webpage of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
+            "The AI Summarizer app. Go to any article webpage of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
         tags: [
         {
             name: "react",
@@ -196,7 +196,7 @@ const testimonials = [
     {
         name: "Space Tour",
         description:
-            "The space tour brochure shows the different tour options the space agency offers. It shows the different crew members and the rockets and spaceships that are used for the journey.",
+            "The space tour brochure shows the different tour options the space agency offers. It shows the different crew members, certain planets you can traverse to, and the rockets and spaceships that are used for the journey.",
         tags: [
         {
             name: "HTML",
