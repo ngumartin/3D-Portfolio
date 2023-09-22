@@ -196,7 +196,7 @@ const testimonials = [
     {
         name: "Space Tour",
         description:
-            "The space tour brochure shows the different tour options the space agency offers. It shows the different crew members, certain planets you can traverse to, and the rockets and spaceships that are used for the journey.",
+            "The space tour website shows the different tour options the space agency offers. It shows the different crew members, certain planets you can traverse to, and the rockets and spaceships that are used for the journey.",
         tags: [
         {
             name: "HTML",
@@ -217,18 +217,18 @@ const testimonials = [
     {
         name: "Solar Planetary",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This webpage was built with HTML, CSS, and Visual Studio Code. As you can observe three planets orbiting a radiant sun within the immense expanse of the galaxy among the stars.",
         tags: [
         {
-            name: "nextjs",
+            name: "HTML",
             color: "blue-text-gradient",
         },
         {
-            name: "supabase",
+            name: "CSS",
             color: "green-text-gradient",
         },
         {
-            name: "css",
+            name: "VSCode",
             color: "pink-text-gradient",
         },
         ],
