@@ -144,33 +144,6 @@ const experiences = [
     },
 ];
 
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
-
     const projects = [
     {
         name: "Article Summarizer",
@@ -217,7 +190,7 @@ const testimonials = [
     {
         name: "Solar Planetary",
         description:
-            "This webpage was built with HTML, CSS, and Visual Studio Code. As you can observe three planets orbiting a radiant sun within the immense expanse of the galaxy among the stars.",
+            "I built this to showcase some of my CSS skills and because of my wonder and curiosity for the universe we occupy. This webpage was built with HTML, CSS, and Visual Studio Code. As you can observe three planets orbiting the sun within the immense expanse of the galaxy among the stars.",
         tags: [
         {
             name: "HTML",
@@ -237,4 +210,4 @@ const testimonials = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
