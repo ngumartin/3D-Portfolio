@@ -34,11 +34,11 @@
 }
 
 .violet-gradient {
-  background: #00ffff;
-  background: linear-gradient(-90deg, #00ffff 0%, rgba(60, 51, 80, 0) 100%);
+  background: #ec008c;
+  background: linear-gradient(-90deg, #ec008c 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #00ffff 0%,
+    #ec008c 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
