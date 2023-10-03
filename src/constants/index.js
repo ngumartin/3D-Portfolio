@@ -164,7 +164,7 @@ const experiences = [
         },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ngumartin/AI-Article-Summarizer",
     },
     {
         name: "Space Tour",
@@ -185,7 +185,7 @@ const experiences = [
         },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ngumartin/Space-Tour-Agency",
     },
     {
         name: "Solar Planetary",
@@ -206,7 +206,7 @@ const experiences = [
         },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ngumartin/Solar-Planetary",
     },
 ];
 
