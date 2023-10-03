@@ -139,7 +139,7 @@ const experiences = [
             "Completed a 24-Week intensive program focused on gaining technical programming skills. Course includes: HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, and ReactJS.",
             "Collaborating with other developers to create high-quality projects.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Continuously adapting to rapid technological advancements, I maintain a perpetual commitment to learning, embracing the mindset of a lifelong student.",
+            "Continuously adapting to rapid technological advancements, I maintain a perpetual commitment to learning, and embracing the mindset of a lifelong student.",
         ],
     },
 ];
