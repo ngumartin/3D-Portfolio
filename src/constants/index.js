@@ -94,7 +94,7 @@ const experiences = [
         title: "Merchant Marine, Deckhand",
         company_name: "Blue & Gold Fleet",
         icon: reactjs,
-        iconBg: "#e5e5e5",
+        iconBg: "#00ffff",
         date: "2009 - 2013",
         points: [
             "Proficiently executed deck operations, including mooring, anchoring, and cargo handling, while strictly adhering to safety protocols and maritime regulations.",
@@ -107,7 +107,7 @@ const experiences = [
         title: "Marine Engineer",
         company_name: "Blue & Gold Fleet",
         icon: tesla,
-        iconBg: "#E6DEDD",
+        iconBg: "#56ccf2",
         date: "2014 - 2016",
         points: [
             "I was responsible for the maintenance of all the boats in the fleet, at the time there was a total of 17 vessels.",
@@ -120,7 +120,7 @@ const experiences = [
         title: "School Custodian",
         company_name: "Elk Grove Unified School District",
         icon: shopify,
-        iconBg: "#383E56",
+        iconBg: "#2f80ed",
         date: "2016 - 2018",
         points: [
             "Consistently strived to ensure both the school and grounds were meticulously maintained according to the state and federal guidelines.",
@@ -133,7 +133,7 @@ const experiences = [
         title: "Coding Bootcamp",
         company_name: "U.C. Berkeley Extension, San Francisco",
         icon: meta,
-        iconBg: "#E6DEDD",
+        iconBg: "#003A99",
         date: "2019 - Present",
         points: [
             "Completed a 24-Week intensive program focused on gaining technical programming skills. Course includes: HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, and ReactJS.",
