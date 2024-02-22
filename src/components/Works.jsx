@@ -21,7 +21,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <div className='relative w-full h-[230px]'>
           <img 
             src={image} 
-            alt={name}
+            alt='project_name'
             className='w-full h-full object-cover rounded-2xl'
           />
 
@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             >
               <img 
                 src={github} 
-                alt="github"
+                alt="source code"
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
@@ -46,7 +46,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag)  => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}

@@ -1,4 +1,4 @@
-import { backend, carrent, creator, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web, xillow } from "../assets";
+import { backend, carrent, creator, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web } from "../assets";
 
 export const navLinks = [
     {
@@ -146,7 +146,28 @@ const experiences = [
 
     const projects = [
     {
-        name: "xillow",
+        name: "Xillow Estate",
+        description:
+            "Xillow Estate is a fullstack, MERN stack application. Xillow lets you browse and search what homes are offered on the market. Xillow also lets clients list their homes complete with description and images.",
+        tags: [
+        {
+            name: "Javascript",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "MongoDB",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Node.js",
+            color: "pink-text-gradient",
+        },
+        ],
+        image: tripguide,
+        source_code_link: "https://mern-xillow.onrender.com/",
+    },
+    {
+        name: "Article Summarizer",
         description:
             "The AI Summarizer app. Go to any article webpage of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
         tags: [
@@ -163,29 +184,8 @@ const experiences = [
             color: "pink-text-gradient",
         },
         ],
-        image: xillow,
-        source_code_link: "https://mern-xillow.onrender.com/",
-    },
-    {
-        name: "Article Summarizer",
-        description:
-            "A real Estate app that lets you search for homes on the market and you can also list your home.",
-        tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "OpenAI",
-            color: "green-text-gradient",
-        },
-        {
-            name: "tailwind",
-            color: "pink-text-gradient",
-        },
-        ],
         image: carrent,
-        source_code_link: "https://github.com/ngumartin/AI-Article-Summarizer",
+        source_code_link: "https://ai-article-summarizer-chi.vercel.app/",
     },
     {
         name: "Space Tour",
@@ -208,27 +208,7 @@ const experiences = [
         image: jobit,
         source_code_link: "https://github.com/ngumartin/Space-Tour-Agency",
     },
-    {
-        name: "Solar Planetary",
-        description:
-            "I built this to showcase some of my CSS skills and because of my wonder and curiosity for the universe we occupy. This webpage was built with HTML, CSS, and Visual Studio Code. As you can observe three planets orbiting the sun within the immense expanse of the galaxy among the stars.",
-        tags: [
-        {
-            name: "HTML",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "CSS",
-            color: "green-text-gradient",
-        },
-        {
-            name: "VSCode",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/ngumartin/Solar-Planetary",
-    },
+    
 ];
 
 export { services, technologies, experiences, projects };
