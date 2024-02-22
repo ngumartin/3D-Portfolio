@@ -1,4 +1,4 @@
-import { backend, carrent, creator, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web } from "../assets";
+import { backend, carrent, creator, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web, xillow } from "../assets";
 
 export const navLinks = [
     {
@@ -146,9 +146,30 @@ const experiences = [
 
     const projects = [
     {
-        name: "Article Summarizer",
+        name: "xillow",
         description:
             "The AI Summarizer app. Go to any article webpage of your choosing and copy the URL and enter it into the app and the bot will summarize and return the article to you in a shorter and more concise version of the article.",
+        tags: [
+        {
+            name: "react",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "OpenAI",
+            color: "green-text-gradient",
+        },
+        {
+            name: "tailwind",
+            color: "pink-text-gradient",
+        },
+        ],
+        image: xillow,
+        source_code_link: "https://mern-xillow.onrender.com/",
+    },
+    {
+        name: "Article Summarizer",
+        description:
+            "A real Estate app that lets you search for homes on the market and you can also list your home.",
         tags: [
         {
             name: "react",

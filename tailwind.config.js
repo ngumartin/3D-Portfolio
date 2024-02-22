@@ -26,6 +26,3 @@ module.exports = {
   plugins: [],
 };
 
-// primary: "#050816",
-// secondary: "#aaa6c3",
-// tertiary: "#151030",
